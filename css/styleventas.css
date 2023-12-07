@@ -1,0 +1,192 @@
+/*Se importa la fuente de letra desde google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Oswald:wght@600&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: #e2e2e2;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    width: 250px;
+}
+.btns-header a{
+    width: 7rem;
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+.btn-inicio{
+    background-color: #35c5b0;
+    }
+    .btn-cliente{
+        background-color: #8E8E8E ;
+    }
+    .btn-ventas{
+        background-color: #45AB21;
+    }
+    .btn-pagos{
+        background-color: #F19601 ;
+    }
+    .btn-gestion{
+        background-color: #0B4F9E;
+    }
+.contenedor{
+    display: flex;
+    /* height: 80vh; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #e2e2e2;
+    padding: 2rem;
+}
+.ventas{
+    width: 60%;
+    
+    background-color: #a1d48f;
+    border-radius: 30px;
+    padding: 1rem;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+form{
+    font-size: 25px;
+    margin-left: 30px;
+    height: 100%;
+  
+}
+.cont-cedula{
+    display: flex;
+    align-items: center;
+}
+.cont-cedula button{
+    margin: 4px 0px 0px 4rem;
+}
+input{
+    height: 35px;
+    margin: 5px;
+    border: none;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+#btn button{
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#detalles{
+    margin-top: 10px;
+    width: 95%;
+    height: 40px;
+}
+#factura{
+    background-color: bisque;
+}
+#cedula{
+    background-color: bisque;
+}
+.container{
+    height: 100%;
+}
+/* .sec1{
+    float: left;
+    display: inline;
+    margin-top: 5px;
+    width: 40%;
+} */
+.sec1 input{
+    margin-top: 30px;
+    width: 200px;
+}
+
+/* .sec2{
+    width: 50%;
+    margin-right: 70px;
+    margin-top: 5px;
+    float: right;
+} */
+.sec2 input{
+    margin-top: 30px;
+    width: 200px;
+}
+#cedula, #ciudad{
+    margin-left: 28px;
+}
+#email{
+    margin-left: 32px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 3rem;  
+
+}
+.users-table table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+table th{
+    padding: 16px;
+    text-align: center;
+    font-size: .85em;
+}
+#estado{
+    background-color:#90cf31;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px;
+}
+#pagos2{
+    background-color:#f19601;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 200px;
+}
+h2{
+    color:red;
+}
+.btn-end{
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-registro{
+    width: 6rem;
+    height: 3rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #45ab21;
+    font-size: 20px;
+    text-align: center;
+}

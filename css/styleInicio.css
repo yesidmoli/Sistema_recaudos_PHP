@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+     background-color: #e2e2e2;;
+}
+main{
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;  
+    background-color: #e2e2e2;
+}
+header{
+    display: flex;
+    justify-content:start;
+    margin-left: 10rem;
+}
+header img{
+    width: 250px;
+}
+main h1{
+    color: #45AB21;
+    font-size: 4rem;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 10rem;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 150px;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.btn-clientes{
+    background-color: #8E8E8E
+}
+.btn-ventas{
+    background-color: #45AB21;
+}
+.btn-pagos{
+    background-color: #F19601;
+}
+.btn-gestion{
+    background-color: #3A8CEC;
+}
